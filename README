@@ -1,0 +1,5 @@
+This is from two of the tasks in the supply chain analytics project. In the simulation file we have coded in a simulation of the situation: A machine with the probability of
+failing, and a probability of being repaired, both are exponentially distributed and we pick random values (according to the distributions) from there. Then we simulate a lot of 
+days so we could get an accurate estimate for how many hours the machine is down each day (on average)
+In the markov analysis we implement markov analysis to solve a similar problem (figure out how many hours a machine is down, this time though, we also have a backup machine to 
+consider, so we have three states, with different probabilites to go to and from each state, and we solve the problem with markov analysis.
